@@ -34,7 +34,7 @@ class KaffsonContent extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
                     Text(
-                      currentStep.title,
+                      currentStep.toString(),
                       style: const TextStyle(
                         color: Colors.brown,
                         fontSize: 30,

@@ -24,7 +24,8 @@ enum CoffeeStep {
     }
   }
 
-  String get title {
+  @override
+  String toString() {
     switch (this) {
       case CoffeeStep.start:
         return "Starting";

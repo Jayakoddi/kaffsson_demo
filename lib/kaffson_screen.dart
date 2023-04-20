@@ -33,8 +33,9 @@ class _KaffssonScreenState extends State<KaffssonScreen> {
               color: Colors.brown[200],
             ),
             child: IconStepper(
+              enableNextPreviousButtons: false,
               enableStepTapping: false,
-              steppingEnabled: true,
+              steppingEnabled: false,
               stepRadius: 25.0,
               stepColor: Colors.brown[500],
               activeStepColor: Colors.brown[900],
